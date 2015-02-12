@@ -47,12 +47,60 @@ Partial Class frmMain
         Me.picAuggieRedRed = New System.Windows.Forms.PictureBox()
         Me.picDavidRedRed = New System.Windows.Forms.PictureBox()
         Me.picRyanRedRed = New System.Windows.Forms.PictureBox()
+        Me.picDavidRedBlue = New System.Windows.Forms.PictureBox()
+        Me.picDavidRedGreen = New System.Windows.Forms.PictureBox()
+        Me.picDavidRedOrange = New System.Windows.Forms.PictureBox()
+        Me.picDavidBlueRed = New System.Windows.Forms.PictureBox()
+        Me.picDavidBlueBlue = New System.Windows.Forms.PictureBox()
+        Me.picDavidBlueOrange = New System.Windows.Forms.PictureBox()
+        Me.picDavidBlueGreen = New System.Windows.Forms.PictureBox()
+        Me.picDavidBlueBlack = New System.Windows.Forms.PictureBox()
+        Me.picDavidRedBlack = New System.Windows.Forms.PictureBox()
+        Me.picDavidOrangeRed = New System.Windows.Forms.PictureBox()
+        Me.picDavidOrangeBlue = New System.Windows.Forms.PictureBox()
+        Me.picDavidOrangeOrange = New System.Windows.Forms.PictureBox()
+        Me.picDavidOrangeGreen = New System.Windows.Forms.PictureBox()
+        Me.picDavidOrangeBlack = New System.Windows.Forms.PictureBox()
+        Me.picDavidGreenRed = New System.Windows.Forms.PictureBox()
+        Me.picDavidGreenBlue = New System.Windows.Forms.PictureBox()
+        Me.picDavidGreenOrange = New System.Windows.Forms.PictureBox()
+        Me.picDavidGreenGreen = New System.Windows.Forms.PictureBox()
+        Me.picDavidGreenBlack = New System.Windows.Forms.PictureBox()
+        Me.picDavidBlackRed = New System.Windows.Forms.PictureBox()
+        Me.picDavidBlackBlue = New System.Windows.Forms.PictureBox()
+        Me.picDavidBlackOrange = New System.Windows.Forms.PictureBox()
+        Me.picDavidBlackGreen = New System.Windows.Forms.PictureBox()
+        Me.picDavidBlackBlack = New System.Windows.Forms.PictureBox()
         Me.grpPlayer.SuspendLayout()
         Me.grpShirt.SuspendLayout()
         Me.grpPants.SuspendLayout()
         CType(Me.picAuggieRedRed, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picDavidRedRed, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picRyanRedRed, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidRedBlue, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidRedGreen, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidRedOrange, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidBlueRed, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidBlueBlue, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidBlueOrange, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidBlueGreen, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidBlueBlack, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidRedBlack, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidOrangeRed, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidOrangeBlue, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidOrangeOrange, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidOrangeGreen, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidOrangeBlack, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidGreenRed, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidGreenBlue, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidGreenOrange, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidGreenGreen, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidGreenBlack, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidBlackRed, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidBlackBlue, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidBlackOrange, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidBlackGreen, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picDavidBlackBlack, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'grpPlayer
@@ -320,12 +368,276 @@ Partial Class frmMain
         Me.picRyanRedRed.TabIndex = 9
         Me.picRyanRedRed.TabStop = False
         '
+        'picDavidRedBlue
+        '
+        Me.picDavidRedBlue.Image = CType(resources.GetObject("picDavidRedBlue.Image"), System.Drawing.Image)
+        Me.picDavidRedBlue.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidRedBlue.Name = "picDavidRedBlue"
+        Me.picDavidRedBlue.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidRedBlue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidRedBlue.TabIndex = 10
+        Me.picDavidRedBlue.TabStop = False
+        '
+        'picDavidRedGreen
+        '
+        Me.picDavidRedGreen.Image = CType(resources.GetObject("picDavidRedGreen.Image"), System.Drawing.Image)
+        Me.picDavidRedGreen.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidRedGreen.Name = "picDavidRedGreen"
+        Me.picDavidRedGreen.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidRedGreen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidRedGreen.TabIndex = 11
+        Me.picDavidRedGreen.TabStop = False
+        '
+        'picDavidRedOrange
+        '
+        Me.picDavidRedOrange.Image = CType(resources.GetObject("picDavidRedOrange.Image"), System.Drawing.Image)
+        Me.picDavidRedOrange.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidRedOrange.Name = "picDavidRedOrange"
+        Me.picDavidRedOrange.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidRedOrange.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidRedOrange.TabIndex = 12
+        Me.picDavidRedOrange.TabStop = False
+        '
+        'picDavidBlueRed
+        '
+        Me.picDavidBlueRed.Image = CType(resources.GetObject("picDavidBlueRed.Image"), System.Drawing.Image)
+        Me.picDavidBlueRed.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidBlueRed.Name = "picDavidBlueRed"
+        Me.picDavidBlueRed.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidBlueRed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidBlueRed.TabIndex = 13
+        Me.picDavidBlueRed.TabStop = False
+        '
+        'picDavidBlueBlue
+        '
+        Me.picDavidBlueBlue.Image = CType(resources.GetObject("picDavidBlueBlue.Image"), System.Drawing.Image)
+        Me.picDavidBlueBlue.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidBlueBlue.Name = "picDavidBlueBlue"
+        Me.picDavidBlueBlue.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidBlueBlue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidBlueBlue.TabIndex = 14
+        Me.picDavidBlueBlue.TabStop = False
+        '
+        'picDavidBlueOrange
+        '
+        Me.picDavidBlueOrange.Image = CType(resources.GetObject("picDavidBlueOrange.Image"), System.Drawing.Image)
+        Me.picDavidBlueOrange.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidBlueOrange.Name = "picDavidBlueOrange"
+        Me.picDavidBlueOrange.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidBlueOrange.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidBlueOrange.TabIndex = 15
+        Me.picDavidBlueOrange.TabStop = False
+        '
+        'picDavidBlueGreen
+        '
+        Me.picDavidBlueGreen.Image = CType(resources.GetObject("picDavidBlueGreen.Image"), System.Drawing.Image)
+        Me.picDavidBlueGreen.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidBlueGreen.Name = "picDavidBlueGreen"
+        Me.picDavidBlueGreen.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidBlueGreen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidBlueGreen.TabIndex = 16
+        Me.picDavidBlueGreen.TabStop = False
+        '
+        'picDavidBlueBlack
+        '
+        Me.picDavidBlueBlack.Image = CType(resources.GetObject("picDavidBlueBlack.Image"), System.Drawing.Image)
+        Me.picDavidBlueBlack.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidBlueBlack.Name = "picDavidBlueBlack"
+        Me.picDavidBlueBlack.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidBlueBlack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidBlueBlack.TabIndex = 17
+        Me.picDavidBlueBlack.TabStop = False
+        '
+        'picDavidRedBlack
+        '
+        Me.picDavidRedBlack.Image = CType(resources.GetObject("picDavidRedBlack.Image"), System.Drawing.Image)
+        Me.picDavidRedBlack.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidRedBlack.Name = "picDavidRedBlack"
+        Me.picDavidRedBlack.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidRedBlack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidRedBlack.TabIndex = 18
+        Me.picDavidRedBlack.TabStop = False
+        '
+        'picDavidOrangeRed
+        '
+        Me.picDavidOrangeRed.Image = CType(resources.GetObject("picDavidOrangeRed.Image"), System.Drawing.Image)
+        Me.picDavidOrangeRed.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidOrangeRed.Name = "picDavidOrangeRed"
+        Me.picDavidOrangeRed.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidOrangeRed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidOrangeRed.TabIndex = 19
+        Me.picDavidOrangeRed.TabStop = False
+        '
+        'picDavidOrangeBlue
+        '
+        Me.picDavidOrangeBlue.Image = CType(resources.GetObject("picDavidOrangeBlue.Image"), System.Drawing.Image)
+        Me.picDavidOrangeBlue.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidOrangeBlue.Name = "picDavidOrangeBlue"
+        Me.picDavidOrangeBlue.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidOrangeBlue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidOrangeBlue.TabIndex = 20
+        Me.picDavidOrangeBlue.TabStop = False
+        '
+        'picDavidOrangeOrange
+        '
+        Me.picDavidOrangeOrange.Image = CType(resources.GetObject("picDavidOrangeOrange.Image"), System.Drawing.Image)
+        Me.picDavidOrangeOrange.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidOrangeOrange.Name = "picDavidOrangeOrange"
+        Me.picDavidOrangeOrange.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidOrangeOrange.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidOrangeOrange.TabIndex = 21
+        Me.picDavidOrangeOrange.TabStop = False
+        '
+        'picDavidOrangeGreen
+        '
+        Me.picDavidOrangeGreen.Image = CType(resources.GetObject("picDavidOrangeGreen.Image"), System.Drawing.Image)
+        Me.picDavidOrangeGreen.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidOrangeGreen.Name = "picDavidOrangeGreen"
+        Me.picDavidOrangeGreen.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidOrangeGreen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidOrangeGreen.TabIndex = 22
+        Me.picDavidOrangeGreen.TabStop = False
+        '
+        'picDavidOrangeBlack
+        '
+        Me.picDavidOrangeBlack.Image = CType(resources.GetObject("picDavidOrangeBlack.Image"), System.Drawing.Image)
+        Me.picDavidOrangeBlack.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidOrangeBlack.Name = "picDavidOrangeBlack"
+        Me.picDavidOrangeBlack.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidOrangeBlack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidOrangeBlack.TabIndex = 23
+        Me.picDavidOrangeBlack.TabStop = False
+        '
+        'picDavidGreenRed
+        '
+        Me.picDavidGreenRed.Image = CType(resources.GetObject("picDavidGreenRed.Image"), System.Drawing.Image)
+        Me.picDavidGreenRed.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidGreenRed.Name = "picDavidGreenRed"
+        Me.picDavidGreenRed.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidGreenRed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidGreenRed.TabIndex = 24
+        Me.picDavidGreenRed.TabStop = False
+        '
+        'picDavidGreenBlue
+        '
+        Me.picDavidGreenBlue.Image = CType(resources.GetObject("picDavidGreenBlue.Image"), System.Drawing.Image)
+        Me.picDavidGreenBlue.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidGreenBlue.Name = "picDavidGreenBlue"
+        Me.picDavidGreenBlue.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidGreenBlue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidGreenBlue.TabIndex = 25
+        Me.picDavidGreenBlue.TabStop = False
+        '
+        'picDavidGreenOrange
+        '
+        Me.picDavidGreenOrange.Image = CType(resources.GetObject("picDavidGreenOrange.Image"), System.Drawing.Image)
+        Me.picDavidGreenOrange.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidGreenOrange.Name = "picDavidGreenOrange"
+        Me.picDavidGreenOrange.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidGreenOrange.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidGreenOrange.TabIndex = 26
+        Me.picDavidGreenOrange.TabStop = False
+        '
+        'picDavidGreenGreen
+        '
+        Me.picDavidGreenGreen.Image = CType(resources.GetObject("picDavidGreenGreen.Image"), System.Drawing.Image)
+        Me.picDavidGreenGreen.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidGreenGreen.Name = "picDavidGreenGreen"
+        Me.picDavidGreenGreen.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidGreenGreen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidGreenGreen.TabIndex = 27
+        Me.picDavidGreenGreen.TabStop = False
+        '
+        'picDavidGreenBlack
+        '
+        Me.picDavidGreenBlack.Image = CType(resources.GetObject("picDavidGreenBlack.Image"), System.Drawing.Image)
+        Me.picDavidGreenBlack.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidGreenBlack.Name = "picDavidGreenBlack"
+        Me.picDavidGreenBlack.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidGreenBlack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidGreenBlack.TabIndex = 28
+        Me.picDavidGreenBlack.TabStop = False
+        '
+        'picDavidBlackRed
+        '
+        Me.picDavidBlackRed.Image = CType(resources.GetObject("picDavidBlackRed.Image"), System.Drawing.Image)
+        Me.picDavidBlackRed.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidBlackRed.Name = "picDavidBlackRed"
+        Me.picDavidBlackRed.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidBlackRed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidBlackRed.TabIndex = 29
+        Me.picDavidBlackRed.TabStop = False
+        '
+        'picDavidBlackBlue
+        '
+        Me.picDavidBlackBlue.Image = CType(resources.GetObject("picDavidBlackBlue.Image"), System.Drawing.Image)
+        Me.picDavidBlackBlue.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidBlackBlue.Name = "picDavidBlackBlue"
+        Me.picDavidBlackBlue.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidBlackBlue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidBlackBlue.TabIndex = 30
+        Me.picDavidBlackBlue.TabStop = False
+        '
+        'picDavidBlackOrange
+        '
+        Me.picDavidBlackOrange.Image = CType(resources.GetObject("picDavidBlackOrange.Image"), System.Drawing.Image)
+        Me.picDavidBlackOrange.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidBlackOrange.Name = "picDavidBlackOrange"
+        Me.picDavidBlackOrange.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidBlackOrange.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidBlackOrange.TabIndex = 31
+        Me.picDavidBlackOrange.TabStop = False
+        '
+        'picDavidBlackGreen
+        '
+        Me.picDavidBlackGreen.Image = CType(resources.GetObject("picDavidBlackGreen.Image"), System.Drawing.Image)
+        Me.picDavidBlackGreen.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidBlackGreen.Name = "picDavidBlackGreen"
+        Me.picDavidBlackGreen.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidBlackGreen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidBlackGreen.TabIndex = 32
+        Me.picDavidBlackGreen.TabStop = False
+        '
+        'picDavidBlackBlack
+        '
+        Me.picDavidBlackBlack.Image = CType(resources.GetObject("picDavidBlackBlack.Image"), System.Drawing.Image)
+        Me.picDavidBlackBlack.Location = New System.Drawing.Point(279, -11)
+        Me.picDavidBlackBlack.Name = "picDavidBlackBlack"
+        Me.picDavidBlackBlack.Size = New System.Drawing.Size(140, 138)
+        Me.picDavidBlackBlack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picDavidBlackBlack.TabIndex = 33
+        Me.picDavidBlackBlack.TabStop = False
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.ClientSize = New System.Drawing.Size(831, 402)
+        Me.ClientSize = New System.Drawing.Size(735, 349)
+        Me.Controls.Add(Me.picDavidBlackBlack)
+        Me.Controls.Add(Me.picDavidBlackGreen)
+        Me.Controls.Add(Me.picDavidBlackOrange)
+        Me.Controls.Add(Me.picDavidBlackBlue)
+        Me.Controls.Add(Me.picDavidBlackRed)
+        Me.Controls.Add(Me.picDavidGreenBlack)
+        Me.Controls.Add(Me.picDavidGreenGreen)
+        Me.Controls.Add(Me.picDavidGreenOrange)
+        Me.Controls.Add(Me.picDavidGreenBlue)
+        Me.Controls.Add(Me.picDavidGreenRed)
+        Me.Controls.Add(Me.picDavidOrangeBlack)
+        Me.Controls.Add(Me.picDavidOrangeGreen)
+        Me.Controls.Add(Me.picDavidOrangeOrange)
+        Me.Controls.Add(Me.picDavidOrangeBlue)
+        Me.Controls.Add(Me.picDavidOrangeRed)
+        Me.Controls.Add(Me.picDavidRedBlack)
+        Me.Controls.Add(Me.picDavidBlueBlack)
+        Me.Controls.Add(Me.picDavidBlueGreen)
+        Me.Controls.Add(Me.picDavidBlueOrange)
+        Me.Controls.Add(Me.picDavidBlueBlue)
+        Me.Controls.Add(Me.picDavidBlueRed)
+        Me.Controls.Add(Me.picDavidRedOrange)
+        Me.Controls.Add(Me.picDavidRedGreen)
+        Me.Controls.Add(Me.picDavidRedBlue)
         Me.Controls.Add(Me.picRyanRedRed)
         Me.Controls.Add(Me.picDavidRedRed)
         Me.Controls.Add(Me.picAuggieRedRed)
@@ -346,6 +658,30 @@ Partial Class frmMain
         CType(Me.picAuggieRedRed, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picDavidRedRed, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picRyanRedRed, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidRedBlue, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidRedGreen, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidRedOrange, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidBlueRed, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidBlueBlue, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidBlueOrange, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidBlueGreen, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidBlueBlack, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidRedBlack, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidOrangeRed, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidOrangeBlue, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidOrangeOrange, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidOrangeGreen, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidOrangeBlack, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidGreenRed, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidGreenBlue, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidGreenOrange, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidGreenGreen, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidGreenBlack, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidBlackRed, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidBlackBlue, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidBlackOrange, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidBlackGreen, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picDavidBlackBlack, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -373,5 +709,29 @@ Partial Class frmMain
     Friend WithEvents picAuggieRedRed As System.Windows.Forms.PictureBox
     Friend WithEvents picDavidRedRed As System.Windows.Forms.PictureBox
     Friend WithEvents picRyanRedRed As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidRedBlue As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidRedGreen As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidRedOrange As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidBlueRed As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidBlueBlue As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidBlueOrange As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidBlueGreen As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidBlueBlack As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidRedBlack As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidOrangeRed As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidOrangeBlue As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidOrangeOrange As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidOrangeGreen As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidOrangeBlack As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidGreenRed As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidGreenBlue As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidGreenOrange As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidGreenGreen As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidGreenBlack As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidBlackRed As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidBlackBlue As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidBlackOrange As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidBlackGreen As System.Windows.Forms.PictureBox
+    Friend WithEvents picDavidBlackBlack As System.Windows.Forms.PictureBox
 
 End Class
