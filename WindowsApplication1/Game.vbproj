@@ -73,15 +73,11 @@
     <Compile Include="Auggie Skills.Designer.vb">
       <DependentUpon>Auggie Skills.vb</DependentUpon>
     </Compile>
-    <Compile Include="Auggie Skills.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Auggie Skills.vb" />
     <Compile Include="David Skills.Designer.vb">
       <DependentUpon>David Skills.vb</DependentUpon>
     </Compile>
-    <Compile Include="David Skills.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="David Skills.vb" />
     <Compile Include="Character Customization.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -92,9 +88,7 @@
     <Compile Include="Jake Skills.Designer.vb">
       <DependentUpon>Jake Skills.vb</DependentUpon>
     </Compile>
-    <Compile Include="Jake Skills.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Jake Skills.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -113,15 +107,11 @@
     <Compile Include="Ryan Skills.Designer.vb">
       <DependentUpon>Ryan Skills.vb</DependentUpon>
     </Compile>
-    <Compile Include="Ryan Skills.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Ryan Skills.vb" />
     <Compile Include="Zach Skills.Designer.vb">
       <DependentUpon>Zach Skills.vb</DependentUpon>
     </Compile>
-    <Compile Include="Zach Skills.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Zach Skills.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Auggie Skills.resx">
