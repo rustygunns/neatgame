@@ -613,7 +613,7 @@ Partial Class frmMain
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.ClientSize = New System.Drawing.Size(735, 349)
+        Me.ClientSize = New System.Drawing.Size(735, 346)
         Me.Controls.Add(Me.picDavidBlackBlack)
         Me.Controls.Add(Me.picDavidBlackGreen)
         Me.Controls.Add(Me.picDavidBlackOrange)
