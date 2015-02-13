@@ -1,4 +1,7 @@
-﻿Public Class frmMain
+﻿Option Strict On
+Option Explicit On
+Option Infer Off
+Public Class frmMain
 
     Private Sub btnNeat_Click(sender As Object, e As EventArgs)
         MessageBox.Show("Thats Pretty Neat", "Neat")
