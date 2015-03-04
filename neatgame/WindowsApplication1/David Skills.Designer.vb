@@ -111,7 +111,7 @@ Partial Class frmDavidSkills
         Me.lblSteedDescription.Name = "lblSteedDescription"
         Me.lblSteedDescription.Size = New System.Drawing.Size(123, 69)
         Me.lblSteedDescription.TabIndex = 3
-        Me.lblSteedDescription.Text = "David calls his trusty steed ________ and raises his speed by 45%"
+        Me.lblSteedDescription.Text = "David calls his trusty steed Steven Reid and raises his speed by 45%"
         '
         'lblScreechDescription
         '

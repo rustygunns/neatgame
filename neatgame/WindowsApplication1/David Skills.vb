@@ -12,4 +12,8 @@
         frmMain.Visible = True
         Me.Visible = False
     End Sub
+
+    Private Sub lblSteedDescription_Click(sender As Object, e As EventArgs) Handles lblSteedDescription.Click
+
+    End Sub
 End Class
